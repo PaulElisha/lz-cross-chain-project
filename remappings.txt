@@ -1,0 +1,5 @@
+@layerzerolabs/oft-evm/=lib/devtools/packages/oft-evm/
+@layerzerolabs/oapp-evm/=lib/devtools/packages/oapp-evm/
+@layerzerolabs/lz-evm-protocol-v2/=lib/layerzero-v2/packages/layerzero-v2/evm/protocol
+@lzendpoint/=lib/endpoint-v1-solidity-examples/contracts/lzApp/
+@openzeppelin/=lib/openzeppelin-contracts/contracts
