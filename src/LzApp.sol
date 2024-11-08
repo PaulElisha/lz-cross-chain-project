@@ -3,9 +3,9 @@
 pragma solidity ^0.8.0;
 
 import "@openzeppelin/access/Ownable.sol";
-import "../../src/interfaces/ILayerZeroEndpoint.sol";
-import "../../src/interfaces/ILayerZeroReceiver.sol";
-import "../../src/interfaces/ILayerZeroUserApplicationConfig.sol";
+import "../src/interfaces/ILayerZeroEndpoint.sol";
+import "../src/interfaces/ILayerZeroReceiver.sol";
+import "../src/interfaces/ILayerZeroUserApplicationConfig.sol";
 import "./libs/BytesLib.sol";
 
 /*

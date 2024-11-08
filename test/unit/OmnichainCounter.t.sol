@@ -3,8 +3,8 @@ pragma solidity ^0.8.0;
 
 import "forge-std/Test.sol";
 import "../mocks/LZEndpointMock.sol";
-import "../../src/OmnichainApps/OmnichainCounterA.sol";
-import "../../src/OmnichainApps/OmnichainCounterB.sol";
+import "../../src/OmnichainCounterApp/OmnichainCounterA.sol";
+import "../../src/OmnichainCounterApp/OmnichainCounterB.sol";
 
 contract OmnichainCounterTest is Test {
     LZEndpointMock lzEndpointMock;

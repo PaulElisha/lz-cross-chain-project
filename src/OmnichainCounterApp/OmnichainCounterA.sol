@@ -5,7 +5,7 @@ import "../NonblockingLzApp.sol";
 
 contract OmnichainCounterA is NonblockingLzApp {
     uint256 public counter;
-    bytes public constant PAYLOAD = "Sepolia_to_Kaia";
+    bytes public PAYLOAD = abi.encode(counter);
 
     event Incremented(uint256);
 
